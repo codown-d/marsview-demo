@@ -9,7 +9,7 @@ COPY ./lowCode /usr/share/nginx/html/lowCode
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # 暴露 Nginx 默认的 80 端口
-EXPOSE 9100
+EXPOSE 9200 9201
 
 # 启动 Nginx 服务
 CMD ["nginx", "-g", "daemon off;"]

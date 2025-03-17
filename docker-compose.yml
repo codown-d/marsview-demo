@@ -1,12 +1,12 @@
-
 services:
   nginx:
     build: .
-    container_name: low-code-nginx
+    container_name: marsview-demo
     ports:
-      - "9100:9100"
+      - '9200:9200'
+      - '9201:9201' # 映射主机的 9201 端口到容器的 9201
     volumes:
       - ./lowCode:/usr/share/nginx/html
       - ./nginx.conf:/etc/nginx/nginx.conf
     restart: always
-    network_mode: host   # 使用 host 网络模式
+    # network_mode: host # 使用 host 网络模式
