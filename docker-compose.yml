@@ -9,4 +9,4 @@ services:
       - ./lowCode:/usr/share/nginx/html
       - ./nginx.conf:/etc/nginx/nginx.conf
     restart: always
-    network_mode: host # 使用 host 网络模式
+    # network_mode: host # 使用 host 网络模式
