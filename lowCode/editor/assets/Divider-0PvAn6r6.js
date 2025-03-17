@@ -1,0 +1,1 @@
+import{r as t,j as d}from"./index-DmOc0qNU.js";import{D as p}from"./index-Do4qj9dd.js";const l=({id:s,type:a,config:e},i)=>{const[o,r]=t.useState(!0);return t.useImperativeHandle(i,()=>({show(){r(!0)},hide(){r(!1)}})),o&&d.jsx(p,{style:e.style,...e.props,"data-id":s,"data-type":a,children:e.props.text})},n=t.forwardRef(l);export{n as default};

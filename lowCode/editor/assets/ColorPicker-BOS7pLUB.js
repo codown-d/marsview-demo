@@ -1,0 +1,1 @@
+import{j as r}from"./index-CY1Ymj4r.js";import{C as t}from"./ColorPicker-CHT1xIcH.js";const h=e=>{const o=n=>{e.onChange(n.toHexString())},a=()=>{e.onChange("")};return r.jsx(t,{...e,format:"hex",showText:!0,allowClear:!0,value:e.value,onChange:o,onClear:a})};export{h as M};

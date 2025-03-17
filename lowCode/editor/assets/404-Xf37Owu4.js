@@ -1,0 +1,1 @@
+import{u as o,j as t,B as a}from"./index-CY1Ymj4r.js";import{R as r}from"./index-BqOjOWET.js";import"./WarningFilled-k-vsk_P7.js";function l(){const s=o(),e=()=>{s("/projects")};return t.jsx(r,{status:404,title:"404",subTitle:"抱歉，您访问的页面不存在。",extra:t.jsx(a,{type:"primary",onClick:e,children:"回首页"})})}export{l as default};

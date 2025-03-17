@@ -1,0 +1,1 @@
+import{u as e,j as t,B as r}from"./index-CY1Ymj4r.js";import{R as a}from"./index-BqOjOWET.js";import"./WarningFilled-k-vsk_P7.js";function u(){const s=e();return t.jsx(a,{status:403,title:"403",subTitle:"抱歉，您当前没有权限访问此页面",extra:t.jsx(r,{type:"primary",onClick:()=>s("/projects"),children:"返回列表"})})}export{u as default};

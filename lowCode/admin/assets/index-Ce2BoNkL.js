@@ -1,0 +1,7 @@
+import{r,u as d,a as h,b as x,s as I,g as S,m as j,j as c,C as E}from"./index-BrD5sXbN.js";import{u as k,i as D}from"./util-DHOYMMeV.js";import{P as N}from"./Page-xyqr89RQ.js";import{u as T}from"./pageStore-D-Vypx31.js";import{l as b,d as y}from"./styled-components.browser.esm-DtO62lpG.js";import"./DoubleRightOutlined-BBqvPxX4.js";import"./index-BTJ7lNGW.js";import"./index-CiNuIwYW.js";import"./index-QqHQ6VDD.js";import"./tslib.es6-DQF7CiZa.js";import"./index-D8qpNAOl.js";import"./index-F3O87iVt.js";const C=y.img`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  pointer-events: none;
+`;function F(){const[n,f]=r.useState(""),[s,l]=r.useState(),[g,i]=r.useState(""),{id:o}=d();console.log(o);const[p]=h(),{savePageInfo:u,clearPageInfo:v}=T(k(e=>({savePageInfo:e.savePageInfo,clearPageInfo:e.clearPageInfo}))),m=x();return r.useEffect(()=>{if(o){let e=p.get("env")||I.get(`${o}-env`)||"prd";i(e==="stg"?"/imgs/env-stg.svg":e==="pre"?"/imgs/env-pre.svg":""),D(e)||(e="prd"),S(e,0,Number(o)).then(a=>{if(console.log(a),!a.id)return m("/404");let t={};try{t=JSON.parse(a.pageData||"{}")}catch(P){console.error(P),console.info("【json数据】",a.pageData),j.error("页面数据格式错误，请检查")}v(),u({...a,pageData:t}),l(t),f(t.config.props.theme||"#1677ff")}).catch(()=>{m("/500")})}},[o]),c.jsxs(E,{locale:b,theme:{cssVar:!0,hashed:!1,token:{colorPrimary:n,colorLink:n,colorInfo:n}},children:[g&&c.jsx(C,{src:g}),c.jsx(N,{config:s==null?void 0:s.config,elements:s==null?void 0:s.elements})]})}export{F as default};

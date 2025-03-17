@@ -1,0 +1,1 @@
+import{c as r}from"./pageStore-CahLOgRM.js";const c=r((o,l)=>({projectInfo:{name:"",menuMode:"inline"},collapsed:!1,menuTree:[],buttons:[],pageMap:{},menuMap:{},setProjectInfo:({projectInfo:e,menuTree:a,buttons:t,pageMap:n,menuMap:p})=>{o({projectInfo:e,menuTree:a,buttons:t,pageMap:n,menuMap:p})},updateCollapsed:()=>{o(e=>({collapsed:!e.collapsed}))}}));export{c as u};

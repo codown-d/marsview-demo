@@ -1,0 +1,1 @@
+import{b as e,j as t,B as r}from"./index-BrD5sXbN.js";import{R as a}from"./index-D8qpNAOl.js";import"./index-F3O87iVt.js";function u(){const s=e();return t.jsx(a,{status:403,title:"403",subTitle:"抱歉，您当前暂无权限访问",extra:t.jsx(r,{type:"primary",onClick:()=>s("/"),children:"回首页"})})}export{u as default};

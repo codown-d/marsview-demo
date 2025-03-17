@@ -1,0 +1,1 @@
+var t=function(n){return typeof n=="function"},u=function(n){return typeof n=="string"},i=function(n){return typeof n=="number"};function o(n,e){if(n===e)return!0;for(var r=0;r<n.length;r++)if(!Object.is(n[r],e[r]))return!1;return!0}var a=!!(typeof window<"u"&&window.document&&window.document.createElement);export{t as a,u as b,i as c,o as d,a as i};

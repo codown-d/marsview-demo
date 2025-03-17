@@ -1,0 +1,1 @@
+import{r as t,j as p}from"./index-CY1Ymj4r.js";const d=({id:r,type:a,config:e},i)=>{const[o,s]=t.useState(!0);return t.useImperativeHandle(i,()=>({show(){s(!0)},hide(){s(!1)}})),o&&p.jsx("a",{style:e.style,...e.props,"data-id":r,"data-type":a,children:e.props.text})},n=t.forwardRef(d);export{n as default};
